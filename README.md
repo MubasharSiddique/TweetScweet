@@ -1,6 +1,6 @@
 
 # Important Note for the community : 
-## We are aware of the latest changes on X.com platform. We are working on a robust version of Scweet where the existing functionalities will be fixed and additional ones will be added. 
+## We are aware of the latest changes on X.com platform. We are working on a robust version of TwitScweet where the existing functionalities will be fixed and additional ones will be added. 
 
 # TwitScweet
 ## A Twitter scraper designed to collect a wide range of data including tweets, likes, retweets, followers, followings, user information, and images. This tool efficiently gathers comprehensive data from Twitter profiles for analysis.
