@@ -9,12 +9,12 @@
 
 Recently, Twitter has banned almost every Twitter scraper. This repository presents an alternative tool to scrape Twitter based on 3 functions:  
 - [scrape](https://github.com/MubasharSiddique/TweetScweet/blob/main/Scweet/scweet.py): Scrapes all the information regarding tweets between two given dates, for a given language and list of words or account name, in the form of a csv file containing retrieved data (more storage methods will be added). 
-- [get_user_information](https://github.com/MubasharSiddique/Scweet/blob/master/Scweet/user.py): Scrapes users information, incluing number of following and followers, location and description.
-- [get_users_followers and get_users_following](https://github.com/MubasharSiddique/Scweet/blob/master/Scweet/user.py): Scrapes followers and following accounts for a given list of users.  
+- [get_user_information](https://github.com/MubasharSiddique/TweetScweet/blob/main/Scweet/user.py): Scrapes users information, incluing number of following and followers, location and description.
+- [get_users_followers and get_users_following](https://github.com/MubasharSiddique/TweetScweet/blob/main/Scweet/user.py): Scrapes followers and following accounts for a given list of users.  
 
 It is also possible to download the images showed in tweets by passing the argument `save_images = True`. If you only want to scrape images, it is recommended to set the argument `display_type = image` to show only tweets that contain images. 
 
-Authentication is required for scraping followers/following. It is recommended to log in with a new account, otherwise the account could be banned if the list of followers is very long. To log in to your account, you need to enter your username `SCWEET_USERNAME` and password `SCWEET_PASSWORD` in the [.env](https://github.com/MubasharSiddique/Scweet/blob/master/.env) file. You can control the `wait` parameter in the `get_users_followers` and `get_users_following` functions according to you internet speed. 
+Authentication is required for scraping followers/following. It is recommended to log in with a new account, otherwise the account could be banned if the list of followers is very long. To log in to your account, you need to enter your username `SCWEET_USERNAME` and password `SCWEET_PASSWORD` in the [.env](https://github.com/MubasharSiddique/TweetScweet/blob/main/.env) file. You can control the `wait` parameter in the `get_users_followers` and `get_users_following` functions according to you internet speed. 
 
 ## Requirements : 
 
@@ -42,7 +42,7 @@ The CSV file contains the following features (for each tweet) :
 
 ### Following / Followers :
 
-The `get_users_following` and `get_users_followers` in [user](https://github.com/MubasharSiddique/Scweet/blob/master/Scweet/user.py) file give a list of following and followers for a given list of users.
+The `get_users_following` and `get_users_followers` in [user](https://github.com/MubasharSiddique/TweetScweet/blob/main/Scweet/user.py) file give a list of following and followers for a given list of users.
 
 ## Usage :
 
