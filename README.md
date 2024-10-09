@@ -8,7 +8,7 @@
 
 
 Recently, Twitter has banned almost every Twitter scraper. This repository presents an alternative tool to scrape Twitter based on 3 functions:  
-- [scrape](https://github.com/MubasharSiddique/Scweet/blob/master/Scweet/scweet.py): Scrapes all the information regarding tweets between two given dates, for a given language and list of words or account name, in the form of a csv file containing retrieved data (more storage methods will be added). 
+- [scrape](https://github.com/MubasharSiddique/TweetScweet/blob/main/Scweet/scweet.py): Scrapes all the information regarding tweets between two given dates, for a given language and list of words or account name, in the form of a csv file containing retrieved data (more storage methods will be added). 
 - [get_user_information](https://github.com/MubasharSiddique/Scweet/blob/master/Scweet/user.py): Scrapes users information, incluing number of following and followers, location and description.
 - [get_users_followers and get_users_following](https://github.com/MubasharSiddique/Scweet/blob/master/Scweet/user.py): Scrapes followers and following accounts for a given list of users.  
 
